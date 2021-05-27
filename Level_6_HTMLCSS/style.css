@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.child {
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 6px;
+    margin: 15px;
+    padding: 15px;
+    font-family: fantasy;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.child h2  {
+    font-weight: lighter;
+}
+
+.child h3 {
+    font-weight: lighter;
+    color: lightslategrey;
+}
+
+.child p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn-approve {
+    width: 48%;
+    padding: 8px 40px;
+    border: 2px solid limegreen;
+    border-radius: 5px;
+    background-color: white;
+    color: limegreen;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+.btn-decline {
+    width: 48%;
+    padding: 8px 40px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+    font-size: 15px;
+    font-weight: bolder;
+}
